@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Article from "./components/Article"
-import {TextInput, Counter}from"./components";
+import {TextInput, Counter, ToggleButton}from"./components";
 
 function App() {
   return (
@@ -12,8 +12,9 @@ function App() {
       />
       <TextInput />
       <Counter />
+      <ToggleButton />
     </div>
   );
-}
+};
 
 export default App;
